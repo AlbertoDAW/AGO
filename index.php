@@ -2,7 +2,7 @@
 /**
  * Index Tarea UD6
  * @author Alberto García
- * @version 1.0
+ * @version 1.0.1
  */
 require_once("Clase.php");
 /**
@@ -19,11 +19,11 @@ echo "<p>Varíable pública: " . $miClase->getVarPublica();
  */
 echo "<p>Variable privada: " . $miClase->getVarPrivada();
 /**
- * Mostramos si una palabra es palíndromo
+ * Mostramos si una palabra es palíndromo o no.
  */
 echo "<p>Es palíndromo?: " . ($miClase->esPalindromo("prueba") ? "Si" : "No");
 /**
- * Mostramos si un número es primo.
+ * Mostramos si un número es primo o no.
  */
 echo "<p> Es primo? " . ($miClase->esPrimo(4) ? "Si" : "No");
 /**
@@ -31,11 +31,11 @@ echo "<p> Es primo? " . ($miClase->esPrimo(4) ? "Si" : "No");
  */
 echo "<p> El mayor es: " . $miClase->saberMayor(100, 200);
 /**
- * Mostramos el resultado de una ecuacion.
+ * Mostramos el resultado de resolver una ecuacion.
  */
 echo "<p> x = " . $miClase->resolverEcuacion(10, 20);
 /**
- * Mostramos si un año es bisiesto.
+ * Mostramos si un año es bisiesto o no.
  */
 echo "<p></p> Es bisiesto? " . ($miClase->esBisiesto(2020) ? "Si" : "No");
 
